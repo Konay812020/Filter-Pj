@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+.container {
+  background-color: #ccc;
+  border: 1px solid slateblue;
+  border-radius: 5px;
+  padding: 10px;
+}
+.form-control {
+  width: 100%;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+}
+.form-control:focus {
+  outline: none;
+}
+.btn {
+  width: 48%;
+  background-color: steelblue;
+  color: #fff;
+  border: 0;
+  padding: 10px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.list-group {
+  height: 400px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow-y: scroll;
+}
+.list-group li a {
+  text-decoration: none;
+  background-color: #f5f5f5;
+  display: block;
+  color: #000;
+  font-size: 17px;
+  border: 1px solid #ddd;
+  padding: 15px;
+  margin-top: -1px;
+}
+.list-group li a:hover {
+  background-color: #f0dbdb;
+}
